@@ -8,12 +8,12 @@ A modern, responsive portfolio website built with React to showcase my projects,
 
 ## 📸 Screenshots
 
-![Portfolio Homepage](./screenshots/home.png)
-![What i do Section](./screenshots/whatido.png)
-![Skills Section](./screenshots/skills.png)
-![Skills Section](./screenshots/projects.png)
-![Skills Section](./screenshots/certificate.png)
-![Skills Section](./screenshots/contact.png)
+![Portfolio Homepage](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/home.png)
+![What i do Section](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/whatido.png)
+![Skills Section](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/skills.png).
+![Skills Section](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/projects.png)
+![Skills Section](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/certificate.png)
+![Skills Section](https://github.com/18simran/Portfolio/blob/main/public/images/screenshots/contact.png)
 
 ## ✨ Features
 
