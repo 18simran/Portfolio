@@ -12,7 +12,7 @@ export const Work = () => {
           interfaces. Whether it’s a landing page or a full web app, I focus on
           both visuals and performance.
         </p>
-        <div className="cards-section row row-cols-1 row-cols-sm-1 row-cols-md-2 g-2 g-5">
+        <div className="cards-section row row-cols-1 row-cols-sm-1 row-cols-md-1 g-2 g-5">
           <div className="col" data-aos="zoom-in-up">
             <div className="card d-flex flex-row ">
               <div className="d-flex align-items-center justify-content-center">
