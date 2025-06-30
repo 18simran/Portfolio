@@ -1,0 +1,167 @@
+/* *************
+Intro section
+************* */
+
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 2rem;
+  height: 70vh !important;
+  right: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hireme {
+  width: 1.5rem;
+  margin: 0 5px;
+}
+
+.introContent {
+  height: 100vh;
+  width: 40vw;
+  padding: 2rem;
+}
+
+.hello {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+
+.introText {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+
+.introName {
+  color: #5e5343;
+}
+
+.intropara {
+  margin: 2rem 0;
+  color: #5e5343;
+}
+
+.introContent .btn {
+  border: 1px solid #244d54;
+  border-radius: 20px;
+  padding: 9px 14px;
+  color: #244d54;
+  font-weight: 500;
+  box-shadow: 2px 2px 10px #244d54;
+  background-color: #f9f7f3;
+}
+
+.introContent .btn:active {
+  color: #244d54;
+}
+
+/* *************
+skills section
+************* */
+
+#skills {
+  padding: 5rem 8rem;
+}
+
+.skillTitle {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skillDesc {
+  color: #5e5343;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+  color: #333333;
+  box-shadow: 0 4px 20px rgb(94, 83, 67, 0.5);
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.card-text {
+  font-size: 15px;
+}
+.card-title {
+  color: #244d54;
+  text-align: center;
+  font-size: 22px;
+}
+
+.cards-section {
+  padding: 0 5rem;
+}
+
+.card img {
+  width: 60px;
+}
+
+.skills-section {
+  padding: 2rem 5rem;
+  margin: 3rem 0;
+}
+
+.skill-box {
+  width: 150px;
+  height: 140px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.skill-box:hover {
+  border-bottom: 1px solid black;
+  transform: scale(1.05) !important;
+}
+
+.logo-img {
+  height: 80px;
+}
+
+.skill-box span {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.slide-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}

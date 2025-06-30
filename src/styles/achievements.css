@@ -1,0 +1,29 @@
+.certificate-title {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.achievements {
+  padding: 2rem 7rem;
+  margin: 0 2rem;
+}
+
+.certificate {
+  padding: 0 !important;
+  border-radius: 2px !important;
+  width: 320px;
+  height: 220px;
+  cursor: pointer;
+}
+
+.certificate img {
+  height: 100%;
+  width: 100%;
+  transition: 1s all;
+}
+
+.certificate img:hover {
+  transform: scale(1.035);
+}
