@@ -9,7 +9,7 @@ const Projects = () => {
         <p className="title-projects">
           My <span>Projects</span>{" "}
         </p>
-        <div className="projects-section d-flex justify-content-center align-items-center  flex-wrap gap-3">
+        <div className="projects-section d-flex justify-content-center align-items-center  flex-wrap gap-4">
           {projects.map((p, id) => (
             <div className="project" key={id}>
               <img src={p.image} />

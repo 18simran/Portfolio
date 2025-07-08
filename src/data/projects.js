@@ -35,4 +35,14 @@ export const projects = [
     liveUrl: "https://trippack.netlify.app/",
     githubUrl: "https://github.com/18simran/TripPack",
   },
+
+  {
+    id: 5,
+    title: "Travel Management System",
+    description:
+      "A Travel Management System is a platform that helps users plan, book, and manage their travel itineraries efficiently. ",
+    image: "../../images/Projects/travel.jpg",
+    liveUrl: "https://github.com/18simran/Travel_Management_System",
+    githubUrl: "https://github.com/18simran/Travel_Management_System",
+  },
 ];
